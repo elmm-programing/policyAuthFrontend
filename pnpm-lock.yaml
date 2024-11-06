@@ -14,9 +14,15 @@ importers:
       nuxt:
         specifier: ^3.13.2
         version: 3.13.2(@parcel/watcher@2.4.1)(@types/node@22.8.6)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.24.3)(terser@5.36.0)(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.6)(terser@5.36.0))
+      primeicons:
+        specifier: ^7.0.0
+        version: 7.0.0
       primevue:
         specifier: 3.53.0
         version: 3.53.0(vue@3.5.12(typescript@5.6.3))
+      typescript:
+        specifier: ^5.6.3
+        version: 5.6.3
       vue:
         specifier: latest
         version: 3.5.12(typescript@5.6.3)
@@ -2830,6 +2836,9 @@ packages:
   pretty-bytes@6.1.1:
     resolution: {integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
+
+  primeicons@7.0.0:
+    resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
 
   primevue@3.53.0:
     resolution: {integrity: sha512-mRqTPGGZX+3AQokaCCjxLVSNEjGEA7LaPdBT4qSpGEdMstK6vhUBCxgLH7IPjHudbaSi4Xo3CIO62pXQxbz8dQ==}
@@ -6633,6 +6642,8 @@ snapshots:
       source-map-js: 1.2.1
 
   pretty-bytes@6.1.1: {}
+
+  primeicons@7.0.0: {}
 
   primevue@3.53.0(vue@3.5.12(typescript@5.6.3)):
     dependencies:
