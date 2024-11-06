@@ -41,6 +41,7 @@
           </template>
         </Column>
       </DataTable>
+      <sectionsRolesResourcePermissions />
     </div>
   </div>
 </template>
